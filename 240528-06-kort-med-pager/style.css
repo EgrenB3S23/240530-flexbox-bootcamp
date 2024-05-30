@@ -1,0 +1,77 @@
+/*
+width: 280
+height: 400
+*/
+
+body {
+    background-color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+article.quote {
+    background-color: white;
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    padding: 1rem 1rem;
+*/    padding: 0;
+    
+/* center vertically */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);    
+
+}
+
+article.quote h1 {
+    margin: 0rem 2rem 1rem 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+body article.quote h1 {
+    margin-top: auto;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+body article.quote p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: rgba(59, 28, 28, 0.4);
+}
+
+
+/*-------------------------------------------------------*/
+
+footer.pager {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer.pager a.pg {
+    text-decoration: none; 
+    margin: 0.25rem 0.5rem;
+    color: gray;
+    font-size: 1.75rem;
+}
+
+footer.pager a.highlight {
+    color: black;
+}
